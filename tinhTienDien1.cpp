@@ -6,7 +6,7 @@ int tienDien(int a, int b)
 	int kq;
 	if(c<50)  kq= c*1500;
 	else if(c>=50 && c<=100) kq= 49*1500+(c-49)*2000;
-	else kq=49*1500+50*2000+(c-99);
+	else kq=49*1500+50*2000+(c-99)*2500;
 	return kq;
 }
 main(){
