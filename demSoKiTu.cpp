@@ -7,7 +7,6 @@ int main(){
 	gets(Ch);
 	printf("Chuoi vua nhap la: ");
 	puts(Ch);
-	int kq=0;
 	int length= strlen(Ch);
 	printf("So ki tu cua chuoi: %d", length);
 }
